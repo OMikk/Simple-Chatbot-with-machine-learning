@@ -1,0 +1,115 @@
+{
+  "intents": [
+    {
+      "group": ["greet"],
+      "patterns": [
+        "Hi, How are you",
+        "Whats up",
+        "Someone there?",
+        "Hello",
+        "Nice to meet you",
+        "Sup",
+        "Anybody there?"
+      ],
+      "responses": [
+        "Hello! Need any help? ",
+        "Nice to see you! Can I help you?",
+        "Hi there! What can I do for you?",
+        "Hello! How can I help?"
+      ]
+    },
+    {
+      "group": ["goodbye"],
+      "patterns": [
+        "See you later",
+        "cya",
+        "bye",
+        "I gotta go",
+        "Goodbye",
+        "Have a nice day",
+        "Good day",
+        "I am leaving"
+      ],
+      "responses": [
+        "Goodbye! ",
+        "Later alligator!",
+        "Till the next time buddy!",
+        "Have a great day!",
+        "Till we meet again!"
+      ]
+    },
+    {
+      "group": ["whoami"],
+      "patterns": [
+        "Who are you?",
+        "Whats your name?",
+        "Are you a human?",
+        "Are you a machine?",
+        "Are you a bot?",
+        "What is this?",
+        "How does this work?"
+      ],
+      "responses": [
+        "I'm Chippy the happy Chatbot, I'll help you with anything you need. Just ask away!"
+      ]
+    },
+    {
+      "group": ["menu"],
+      "patterns": [
+        "Whats on the menu?",
+        "Show me the menu",
+        "Can I see the menu?",
+        "Where can I see the menu?",
+        "Do you have a menu?",
+        "What are you serving?",
+        "Menu please",
+        "What food you have?",
+        "food please",
+        "food"
+      ],
+      "responses": [
+        "Here you go! Starters: Crab Cakes with Horseradish Cream / Caramelized Onion Dip, Main Course: Pot pork roast / Chicken fried steak with pineapple bbq sauce, Desserts: Red Velvet cake / Pancakes with blueberry syrup "
+      ]
+    },
+    {
+      "group": ["drinks"],
+      "patterns": [
+        "Whats for drink?",
+        "What drinks do you have?",
+        "Can I see the drinks",
+        "What beverages do you offer?",
+        "Do you serve alcohol?",
+        "What kind of drinks do you have?",
+        "drink",
+        "drinks please"
+      ],
+      "responses": [
+        "We have something for everyone! Drinks: Soft drinks: Pepsi / Pepsi Max / Mountain Dew / Fanta / Soda Water, Alcoholic beverages: Heineken / Corona / Bud Light / Brooklyn / Redd's Apple Ale / Woodchuck Hard Cider, Hot Drinks: Caffee / Cappuccino / Expresso / Hot Chocolate"
+      ]
+    },
+    {
+      "group": ["prices"],
+      "patterns": [
+        "How expensive are your meals?",
+        "How much does your food cost?",
+        "Can I see the prices?",
+        "What is the price of your food?",
+        "price",
+        "prices please"
+      ],
+      "responses": [
+        "Right away! Prices: Full course meal with drink of your choice: 50euro, Main course with drink of your choice: 20euro"
+      ]
+    },
+    {
+      "group": ["statements"],
+      "patterns": ["yes", "ok", "sure", "idk", "help me"],
+      "responses": ["Go on ask! I'm happy to help."]
+    },
+    {
+      "group": ["thanks"],
+      "patterns": ["ty", "thanks", "thank you", "Thanks for the help"],
+      "responses": ["Of course! Thank you for visiting!"]
+    }
+  ]
+}
